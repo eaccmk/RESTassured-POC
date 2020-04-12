@@ -1,3 +1,4 @@
+
 package rest.assured.api.testing;
 
 import io.restassured.RestAssured;
@@ -17,11 +18,8 @@ public class EntryPointMain {
 		restobj.setUserName(userName);
 		restobj.setPassword(password);
 		restobj.setBaseUrl(baseUrl);
-try{
+
 		RestAssured.baseURI = restobj.getBaseUrl();
-}catch(Exception e){
-	System.out.println(e.getMessage());
-}
 		RequestSpecification request = RestAssured.given();
 		restobj.setRequest(request);
 
