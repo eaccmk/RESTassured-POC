@@ -21,4 +21,4 @@ Lets go Back to Previous(main) [README.md]
 
 [\\]: <> (This is a commented section and should not be visible in README file)
 
-[README.md]: <./README.md>
+[README.md]: <../README.md>

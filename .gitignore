@@ -24,6 +24,9 @@ hs_err_pid*
 
 # Eclipse Project settings / Preferences
 *.prefs
+target/
 /target
-.project
-.classpath
+.settings/
+/.settings
+*.project
+*.classpath
