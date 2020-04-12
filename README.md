@@ -1,17 +1,21 @@
-# RESTassured-POC (REST_Assured_API_Testing - POC)
+# RESTassured-POC (REST_Assured_API_Testing - POC) 🛋️
 
-This Project was created to as a [mvp] for running RESTAssured test in Java 
+This Project was created to as a [mvp] 🚀 for running RESTAssured test in Java 
 
-# Parent Project
-Want to Explore more stuff, mini and quick POCs, checkout [Test-Automation-Project-POCs].
+# Parent Project 🎅
+This repository is linked to its **Parent POC Project**, here is the link [Test-Automation-Project-POCs].
 
-# How To Run
+# How To Run 🏃
 >	Its Simple! 
 
 **Step 1:** checkout this repository ( `git clone https://github.com/eaccmk/RESTassured-POC.git` )
+
 **Step 2:** Open Project (In your fav IDE, I have used [eclipse- Kepler] )
+
 **Step 3:** Navigate to Main Class (`cd EntryPointMain.java` )
+
 **Step 4:** Run : (Right click `Run As` > `1. Java Application`)
+
 
 Not enough to get kick started, no worries here is more [HELP!](\wiki\README.md)
 
@@ -20,11 +24,11 @@ Not enough to get kick started, no worries here is more [HELP!](\wiki\README.md)
 * This project was setup amid on a easter Sunday
 * Notable most of us were staying home, not because _it was a Sunday!_ but to stay safe from [COVID-19]
 
-# Credits
+# Credits 🙏
 
 The complete credit goes to [TOOLSQA.COM] for providing very easy stepwise guide to set up the framework and make free API available to test.  
 
-## Licence
+## License 🔰
 
 **RESTassured-POC** was released under [MIT License](LICENSE)
 

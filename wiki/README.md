@@ -1,5 +1,5 @@
 # Here is more HELP! (to run this project...)
----
+
 ---
 ## 1.Making Sure your `JAVA` and `Maven` is all set !
 
@@ -17,7 +17,7 @@
 
 --- 
 
-Lets go Back to Previous(main) [/README.md]
+Lets go Back to Previous(main) [README.md]
 
 [\\]: <> (This is a commented section and should not be visible in README file)
 
