@@ -25,6 +25,28 @@ public class RestAPIs {
 	private RequestSpecification request;
 	private Response response;
 	
+	
+	public void getAuthToken_GET_API_python() {
+		/*Step - 1:  Test will start from generating Token for Authorization*/
+		
+		request.header("Content-Type", "application/json");
+
+		Response response = request.body(
+				"{ \"userName\":\"" + userName + "\", \"password\":\""
+						+ password + "\"}").post("/Login/Login/");
+
+		Assert.assertEquals(response.getStatusCode(), 200);
+		System.out.println(response.getStatusCode());
+/*
+		jsonString = response.asString();
+		Assert.assertTrue(jsonString.contains("token"));
+
+		This token will be used in later requests
+		String token = JsonPath.from(jsonString).get("token");
+		setToken(token);
+		System.out.println("\n Value of #token is: `" + token + "`\n");*/
+	}
+	
 	public void getAuthToken_GET_API() {
 		/*Step - 1:  Test will start from generating Token for Authorization*/
 		

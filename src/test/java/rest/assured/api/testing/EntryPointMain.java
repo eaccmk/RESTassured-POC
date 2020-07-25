@@ -6,9 +6,12 @@ import io.restassured.specification.RequestSpecification;
 
 public class EntryPointMain {
 	static String userID = "9b5f49ab-eea9-45f4-9d66-bcf56a531b85";
-	static String userName = "TOOLSQA-Test";
+	/*static String userName = "TOOLSQA-Test";
 	static String password = "Test@@123";
-	static String baseUrl = "http://bookstore.toolsqa.com";
+	static String baseUrl = "http://bookstore.toolsqa.com";*/
+	static String userName = "test";
+	static String password = "test";
+	static String baseUrl = "http://192.168.0.102:8000";
 
 	public static void main(String[] args) {
 		System.out.println("*** --THIS IS THE STARTING POINT main()-- ***");
@@ -22,7 +25,8 @@ public class EntryPointMain {
 		RestAssured.baseURI = restobj.getBaseUrl();
 		RequestSpecification request = RestAssured.given();
 		restobj.setRequest(request);
-
+		restobj.getAuthToken_GET_API_python();
+		
 //		System.out.println("*** --calling getAuthToken_GET_API()-- ***\n");
 		restobj.getAuthToken_GET_API();
 //		System.out.println("*** --calling getISBN_GET_API()-- ***\n");
